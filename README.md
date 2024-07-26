@@ -19,6 +19,11 @@ SimpleNote 是为撰写简易课程笔记而设计的 Typst 模板，修改自 [
 - /fonts 字体文件夹
 - /figures 图片文件夹
 
+macOS 下可以使用 homebrew 安装字体
+```
+brew install font-linux-libertine font-jetbrains-mono font-lxgw-wenkai
+```
+
 使用模板首先需配置 `main.typ`，设置标题、描述、作者等信息，如需要进一步更改文档格式，请修改 `template.typ`。撰写文档请修改 `/content` 文件夹内的文件。
 
 本地编辑建议使用 VSCode 编辑器，并推荐安装 [Tinymist](https://marketplace.visualstudio.com/items?itemName=mgt19937.typst-preview) 与 [Typst Preview](https://marketplace.visualstudio.com/items?itemName=mgt19937.typst-preview) 插件。
