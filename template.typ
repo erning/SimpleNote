@@ -33,8 +33,8 @@
   fonts: (
     (
       en-font: "Linux Libertine",
-      zh-font: "Noto Sans CJK SC",
-      code-font: "DejaVu Sans Mono",
+      zh-font: "LXGW WenKai",
+      code-font: "JetBrains Mono",
     )
   ),
 

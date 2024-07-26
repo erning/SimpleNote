@@ -38,17 +38,17 @@
   fonts: (
     (
       en-font: "Linux Libertine",
-      zh-font: "Noto Sans CJK SC",
-      code-font: "DejaVu Sans Mono",
+      zh-font: "LXGW WenKai",
+      code-font: "JetBrains Mono",
     )
   ),
   
   // 主题色
-  accent: orange,
+  // accent: orange,
   // 封面背景图片（选填图片路径或 none）
   cover-image: "./figures/cover-image.png",
   // 正文背景颜色（选填 HEX 颜色或 none）
-  background-color: "#FAF9DE"
+  // background-color: "#FAF9DE"
 )
 
 #include "content/chapter1.typ"
