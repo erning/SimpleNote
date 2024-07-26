@@ -25,9 +25,9 @@ SimpleNote 是为撰写简易课程笔记而设计的 Typst 模板，修改自 [
 
 ## 模板预览
 
-| [封面](https://github.com/a-kkiri/SimpleNote/blob/main/figures/cover.jpg) | [正文1](https://github.com/a-kkiri/SimpleNote/blob/main/figures/content1.jpg) | [正文2](https://github.com/a-kkiri/SimpleNote/blob/main/figures/content2.jpg) |
+| [封面](https://github.com/erning/SimpleNote/blob/main/figures/cover.jpg) | [正文1](https://github.com/erning/SimpleNote/blob/main/figures/content1.jpg) | [正文2](https://github.com/erning/SimpleNote/blob/main/figures/content2.jpg) |
 |:---:|:---:|:---:|
-| ![cover](https://github.com/a-kkiri/SimpleNote/blob/main/figures/cover.jpg?raw=true) | ![content1](https://github.com/a-kkiri/SimpleNote/blob/main/figures/content1.jpg?raw=true) | ![content2](https://github.com/a-kkiri/SimpleNote/blob/main/figures/content2.jpg?raw=true) |
+| ![cover](https://github.com/erning/SimpleNote/blob/main/figures/cover.jpg?raw=true) | ![content1](https://github.com/erning/SimpleNote/blob/main/figures/content1.jpg?raw=true) | ![content2](https://github.com/erning/SimpleNote/blob/main/figures/content2.jpg?raw=true) |
 
 > [!CAUTION]
 >
