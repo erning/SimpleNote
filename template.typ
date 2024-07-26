@@ -71,12 +71,12 @@
     if it.body.has("text") and it.body.text in author-names {
       it
     } else {
-      underline(stroke: (dash: "densely-dotted"), text(fill: blue, it)) 
+      underline(stroke: (dash: "densely-dotted"), text(/*fill: blue, */it)) 
     }
   }
 
   // 文本高亮
-  // set highlight(fill: accent-color.lighten(50%))
+  set highlight(fill: accent-color.lighten(75%))
 
   // 计数器
   let chaptercounter = counter("chapter")

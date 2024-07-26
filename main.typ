@@ -44,7 +44,7 @@
   ),
   
   // 主题色
-  // accent: orange,
+  accent: purple,
   // 封面背景图片（选填图片路径或 none）
   cover-image: "./figures/cover-image.png",
   // 正文背景颜色（选填 HEX 颜色或 none）
