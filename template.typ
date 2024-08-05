@@ -2,6 +2,7 @@
 #import "@preview/codelst:2.0.1": sourcecode
 #import "@preview/ctheorems:1.1.2": *
 #import "resource.typ": *
+#import "@preview/cuti:0.2.1": regex-fakebold, regex-fakeitalic
 
 /*
   本模板修改自 jsk-lecnotes
@@ -55,8 +56,16 @@
   show raw: set text(font: fonts.code-font, 10pt)
 
   // 设置中文粗体，斜体
-  show strong: set text(fill: accent-color, font: (fonts.en-font, fonts.zh-font))
-  show emph: set text(font: (fonts.en-font, fonts.zh-font))
+  // show strong: set text(fill: accent-color, font: (fonts.en-font, fonts.zh-font))
+  // show emph: set text(font: (fonts.en-font, fonts.zh-font))
+  show strong: it => [
+    #set text(fill: accent-color, font: (fonts.en-font, fonts.zh-font))
+    #regex-fakebold(reg-exp: "\p{script=Han}")[#it]
+  ]
+  show emph: it => [
+    #set text(font: (fonts.en-font, fonts.zh-font))
+    #regex-fakeitalic(reg-exp: "\p{script=Han}", ang: -12deg)[#it]
+  ]
 
   // 设置文档元数据
   set document(title: title, author: authors.map(author => author.name))
